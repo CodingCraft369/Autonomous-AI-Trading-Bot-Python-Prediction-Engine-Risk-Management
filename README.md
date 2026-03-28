@@ -695,7 +695,7 @@ lsof -ti:8000 | xargs kill -9
 >
 > - **Do not use real money until you fully understand the system and have tested extensively in paper mode and on testnet.**
 > - Cryptocurrency trading involves significant risk of loss. Past performance does not guarantee future results.
-> - AI prediction accuracy is approximately 55–59% directional accuracy. This is a small statistical edge, not a guarantee of profit.
+> - AI prediction accuracy is approximately 55–80% directional accuracy. This is a small statistical edge, not a guarantee of profit.
 > - The authors accept no responsibility for financial losses incurred through use of this software.
 > - Always start with Paper mode. Move to Testnet next. Only use real funds if you can afford to lose them.
 
