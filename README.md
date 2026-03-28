@@ -35,6 +35,10 @@
 - [Disclaimer](#-disclaimer)
 
 ---
+## Demo Image
+![Demo](https://github.com/CodingCraft369/Autonomous-AI-Trading-Bot-Python-Prediction-Engine-Risk-Management/blob/main/Crypto%20trading%20bot%20single%20user/demo-image/demo1.png)
+![Demo](https://github.com/CodingCraft369/Autonomous-AI-Trading-Bot-Python-Prediction-Engine-Risk-Management/blob/main/Crypto%20trading%20bot%20single%20user/demo-image/Screenshot%202026-03-29%20011831.png)
+![Demo](https://github.com/CodingCraft369/Autonomous-AI-Trading-Bot-Python-Prediction-Engine-Risk-Management/blob/main/Crypto%20trading%20bot%20single%20user/demo-image/Screenshot%202026-03-29%20011824.png)
 
 ## 🚀 What is CryptoBot Pro?
 
