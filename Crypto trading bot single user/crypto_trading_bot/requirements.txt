@@ -1,0 +1,27 @@
+# CryptoBot Pro — Python dependencies
+# Install: pip install -r requirements.txt
+# Upgrade:  pip install -r requirements.txt --upgrade
+
+# ── Web server ─────────────────────────────────────────────────────────
+# IMPORTANT: uvicorn >=0.27.0 is REQUIRED for --reload to work on Windows Python 3.11
+# Older versions have a bug: ImportError: cannot import name 'Config' from 'uvicorn'
+uvicorn[standard]>=0.27.0
+fastapi>=0.109.0
+python-multipart>=0.0.6
+
+# ── HTTP client (for AI API calls) ────────────────────────────────────
+httpx>=0.27.0
+
+# ── Crypto exchange data ───────────────────────────────────────────────
+ccxt>=4.2.0
+
+# ── Data processing ────────────────────────────────────────────────────
+pandas>=2.0.0
+numpy>=1.24.0
+
+# ── Config / env ───────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+
+# ── Optional: faster reload watching ──────────────────────────────────
+watchfiles>=0.21.0

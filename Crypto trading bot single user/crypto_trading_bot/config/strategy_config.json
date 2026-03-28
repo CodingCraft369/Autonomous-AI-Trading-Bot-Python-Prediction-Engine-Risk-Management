@@ -1,0 +1,44 @@
+{
+  "rsi": {
+    "oversold": 30,
+    "overbought": 70,
+    "period": 14,
+    "scale": 2.5
+  },
+  "macd": {
+    "fast": 12,
+    "slow": 26,
+    "signal": 9
+  },
+  "bb": {
+    "period": 20,
+    "std_dev": 2.0
+  },
+  "ma": {
+    "short": 20,
+    "long": 50
+  },
+  "risk": {
+    "stop_loss_pct": 1.5,
+    "take_profit_pct": 3.0,
+    "max_position_pct": 5.0,
+    "daily_loss_limit_pct": 3.0,
+    "max_open_trades": 3
+  },
+  "ai": {
+    "enabled": false,
+    "provider": "deepseek_ollama",
+    "model": "deepseek-r1:7b",
+    "ollama_url": "http://localhost:11434",
+    "timeout": 90,
+    "min_confidence": 0.45,
+    "ai_weight": 0.65
+  },
+  "timeframe": "5m",
+  "pairs": [
+    "BTC/USDT",
+    "ETH/USDT",
+    "BNB/USDT",
+    "SOL/USDT"
+  ]
+}
